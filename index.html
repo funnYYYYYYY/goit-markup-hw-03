@@ -11,82 +11,95 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/ctyle.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <a class="header-logo link" href=""
-        ><span class="logo">Web</span>Studio</a
-      >
-      <nav class="nav-menu">
+      <div class="container">
+        <a class="header-logo link" href=""
+          ><span class="logo">Web</span>Studio</a
+        >
+        <nav class="nav-menu">
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="nav-link current link" href="">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="nav-list list">
           <li class="nav-item">
-            <a class="nav-link current link" href="">Студия</a>
+            <a class="header-other-nav link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="">Контакты</a>
+          <li class="header-contacts">
+            <a class="header-other-nav list link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="nav-list list">
-        <li class="nav-item">
-          <a class="header-other-nav link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-contacts">
-          <a class="header-other-nav list link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Main -->
     <main>
       <!-- Section 1-->
       <section class="primary">
-        <h1 class="primary-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="primary-btn current-button" type="button">
-          Заказать услугу
-        </button>
+        <div class="container">
+          <h1 class="primary-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="primary-btn current-button" type="button">
+            Заказать услугу
+          </button>
+        </div>
       </section>
       <!-- Section 2-->
       <section class="section benefits">
-        <h2 class="visually-hidden">Преимущества</h2>
-        <ul class="benefits-list list">
-          <li class="benefits-item">
-            <h3 class="benefits-company">Внимание к деталям</h3>
-            <p class="benefits-description">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="benefits-item">
-            <h3 class="benefits-company">Пунктуальность</h3>
-            <p class="benefits-description">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="benefits-item">
-            <h3 class="benefits-company">Планирование</h3>
-            <p class="benefits-description">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="benefits-item">
-            <h3 class="benefits-company">Современные технологии</h3>
-            <p class="benefits-description">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="visually-hidden">Преимущества</h2>
+          <ul class="benefits-list list">
+            <li class="benefits-item">
+              <h3 class="benefits-company">Внимание к деталям</h3>
+              <p class="benefits-description">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="benefits-item">
+              <h3 class="benefits-company">Пунктуальность</h3>
+              <p class="benefits-description">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="benefits-item">
+              <h3 class="benefits-company">Планирование</h3>
+              <p class="benefits-description">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="benefits-item">
+              <h3 class="benefits-company">Современные технологии</h3>
+              <p class="benefits-description">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Section 3 -->
       <section class="product">

@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --background-color: #ffffff;
   --second-background-color: #2f303a;
@@ -45,13 +51,43 @@ body {
   color: var(--accent-text-color);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1170px;
+  outline: 2px solid red;
+  margin: 0 auto;
+}
+
 /* Header */
+
+.header {
+  margin-left: 15px;
+  margin-right: 15px;
+}
 
 .logo {
   color: var(--accent-text-color);
 }
 
 .header-logo {
+  padding-top: 24px;
   color: var(--second-text-color);
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -103,10 +139,16 @@ body {
 /* Section 1 */
 
 .primary {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: rgba(47, 48, 58, 1);
 }
 
 .primary-title {
+  max-width: 696px;
+  margin-bottom: 30px;
   color: var(--other-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -114,9 +156,13 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .primary-btn {
+  display: block;
+  margin: 0 auto;
   background-color: #2196f3;
   color: var(--other-text-color);
   cursor: pointer;
@@ -135,6 +181,9 @@ body {
 /* Section 2 */
 
 .benefits-company {
+  max-width: 270px;
+  padding-top: 94px;
+  margin-bottom: 10px;
   color: var(--second-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -144,6 +193,7 @@ body {
 }
 
 .benefits-description {
+  max-width: 270px;
   color: var(--primary-text-color);
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -168,6 +218,7 @@ body {
 }
 
 .about-name {
+  text-align: center;
   color: var(--second-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -176,6 +227,7 @@ body {
 }
 
 .about-position {
+  text-align: center;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
