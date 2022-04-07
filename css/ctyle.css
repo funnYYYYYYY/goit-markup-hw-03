@@ -71,8 +71,10 @@ img {
 
 .container {
   width: 1170px;
-  outline: 2px solid red;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
 }
 
 /* Header */
@@ -87,6 +89,7 @@ img {
 }
 
 .header-logo {
+  display: block;
   padding-top: 24px;
   color: var(--second-text-color);
   font-family: "Raleway", sans-serif;
@@ -139,6 +142,8 @@ img {
 /* Section 1 */
 
 .primary {
+  width: 1600px;
+  height: 600px;
   margin-left: 15px;
   margin-right: 15px;
   padding-top: 200px;
@@ -203,6 +208,8 @@ img {
 
 .product-our,
 .about-team {
+  padding-top: 94px;
+  padding-bottom: 50px;
   color: var(--second-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -227,6 +234,7 @@ img {
 }
 
 .about-position {
+  margin-top: 10px;
   text-align: center;
   color: var(--primary-text-color);
   font-weight: 500;
@@ -237,7 +245,13 @@ img {
 
 /* Portfolio */
 
+.filtr-menu {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
 .product-text {
+  margin-bottom: 4px;
   color: var(--second-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -259,10 +273,15 @@ img {
 }
 
 .informations {
+  margin-top: 20px;
   text-decoration: none;
+  width: 231px;
+  height: 81px;
 }
 
 .information-logo {
+  display: block;
+  padding-top: 60px;
   color: var(--other-text-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -272,11 +291,14 @@ img {
 }
 
 .informations-address {
+  margin-top: 20px;
   color: var(--other-text-color);
 }
 
 .informations-mail,
 .informations-number {
+  display: block;
+  margin-top: 9px;
   color: var(--others-text-color);
   font-style: normal;
 }
