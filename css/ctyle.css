@@ -79,6 +79,16 @@ img {
 
 /* Header */
 
+.nav-list {
+  display: flex;
+}
+
+.header .container {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+
 .header {
   margin-left: 15px;
   margin-right: 15px;
@@ -89,8 +99,8 @@ img {
 }
 
 .header-logo {
-  display: block;
   padding-top: 24px;
+  padding-bottom: 25px;
   color: var(--second-text-color);
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -98,6 +108,10 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .nav-link,
@@ -156,7 +170,6 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: 0 auto;
@@ -183,9 +196,21 @@ img {
 
 /* Section 2 */
 
-.benefits-company {
-  max-width: 270px;
+.benefits-list {
+  display: flex;
+  justify-content: space-evenly;
   padding-top: 94px;
+}
+
+.benefits-item {
+  flex-basis: ((100% - 90px) / 4);
+}
+
+.benefits-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.benefits-company {
   margin-bottom: 10px;
   color: var(--second-text-color);
   font-weight: 700;
@@ -204,6 +229,21 @@ img {
 
 /* Section 3 */
 
+.product-device {
+  display: flex;
+  flex-basis: calc((100% - 30px) / 3);
+}
+
+.product-pic {
+  /* display: flex; */
+  flex-shrink: 1;
+  /* justify-content: space-around; */
+}
+
+.product-pic:not(:last-child) {
+  margin-right: 30px;
+}
+
 .product-our,
 .about-team {
   padding-top: 94px;
@@ -217,6 +257,18 @@ img {
 }
 
 /* Section 4 */
+
+.about-content {
+  display: flex;
+}
+
+.about-people:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-conten:not(:last-child) {
+  margin-right: 30px;
+}
 
 .about {
   background-color: rgba(245, 244, 250, 1);
