@@ -307,6 +307,11 @@ img {
 
 /* Portfolio */
 
+.container-title {
+  margin: 20px 24px;
+  border-bottom: 1px solid teal;
+}
+
 .main-nav {
   margin-bottom: 94px;
 }
