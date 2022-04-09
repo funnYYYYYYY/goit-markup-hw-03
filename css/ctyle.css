@@ -262,13 +262,12 @@ img {
   display: flex;
 }
 
-.about-people:not(:last-child) {
-  margin-right: 30px;
+.about-conten .about-people + .about-people {
+  margin-right: -30px;
 }
 
-.about-conten:not(:last-child) {
-  margin-right: 30px;
-}
+/* .about-people:not(:last-child) {
+  margin-right: 30px; */
 
 .about {
   background-color: rgba(245, 244, 250, 1);
