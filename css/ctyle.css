@@ -194,6 +194,7 @@ img {
 }
 
 .primary-title {
+  text-align: center;
   max-width: 696px;
   margin-bottom: 30px;
   color: var(--other-text-color);
