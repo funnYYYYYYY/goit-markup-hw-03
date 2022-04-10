@@ -390,6 +390,7 @@ img {
 }
 
 .information-logo {
+  cursor: pointer;
   display: block;
   margin-bottom: 20px;
   color: var(--other-text-color);
