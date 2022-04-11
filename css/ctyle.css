@@ -260,6 +260,10 @@ img {
 
 /* Section 3 */
 
+.product {
+  padding-top: 0;
+}
+
 .product-device {
   display: flex;
 }
@@ -328,7 +332,9 @@ img {
 
 .container-title {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .filtr-item:not(:last-child) {
@@ -407,13 +413,13 @@ img {
   font-style: normal;
 }
 
-.informations-more {
+.informations-available {
+  margin-top: 9px;
 }
 
 .informations-mail,
 .informations-number {
   display: block;
-  margin-top: 9px;
   color: var(--others-text-color);
   font-style: normal;
 }
